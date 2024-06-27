@@ -98,4 +98,4 @@ def update_giftcard(giftcard_number):
 
 if __name__ == '__main__':
     # Code to run when this is the main program here
-    app.run()
+    app.run(host='0.0.0.0', port=5000)
